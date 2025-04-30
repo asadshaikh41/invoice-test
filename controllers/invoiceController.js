@@ -37,6 +37,7 @@ exports.readallinvoice = async (req, res) => {
         data: []
       });
     }
+    console.log(results)
 
     res.status(200).json({
       data: results,
